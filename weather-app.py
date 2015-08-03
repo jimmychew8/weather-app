@@ -40,11 +40,10 @@ def send_to_phone():
 	server.starttls()
 	server.login('iamtheweatherman2', "asdfjkl;asd")
 	server.sendmail( 'Me', me, master)
-	print "Message sent." #for good measure 
+	print "Message sent" 
 
 def main(): 
 	while True:
-	# sends everyday 
 		send_to_phone()
 		time.sleep(86399) 
 
