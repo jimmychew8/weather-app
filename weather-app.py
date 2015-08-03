@@ -8,8 +8,7 @@ import smtplib
 import time 
 
 """
-Reads the file from the NOAA website for Logan Airport.
-	For other locations try: 
+For other locations try: 
 	http://w1.weather.gov/xml/current_obs/
 """
 
